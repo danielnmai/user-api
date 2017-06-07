@@ -1,3 +1,4 @@
+  json.version 2
   json.id user.id
   json.full_name user.full_name
   json.city user.city

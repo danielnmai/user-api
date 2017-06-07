@@ -1,7 +1,7 @@
-class UsersController < ApplicationController
+class V2::UsersController < ApplicationController
   def index
     @users = User.all
-    render :index
+    render 'index.json.jbuilder'
   end
 
   def show
